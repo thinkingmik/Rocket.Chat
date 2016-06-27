@@ -1,10 +1,10 @@
 {
   "dependencies": {
     "redis": {
-      "version": "2.2.5",
+      "version": "http://registry.npmjs.org/redis/-/redis-2.2.5.tgz",
       "dependencies": {
         "double-ended-queue": {
-          "version": "2.1.0-0"
+          "version": "http://registry.npmjs.org/double-ended-queue/-/double-ended-queue-2.1.0-0.tgz"
         }
       }
     }

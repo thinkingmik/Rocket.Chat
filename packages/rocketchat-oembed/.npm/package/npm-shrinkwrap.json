@@ -1,13 +1,13 @@
 {
   "dependencies": {
     "iconv-lite": {
-      "version": "0.4.13"
+      "version": "http://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.13.tgz"
     },
     "ip-range-check": {
-      "version": "0.0.1",
+      "version": "http://registry.npmjs.org/ip-range-check/-/ip-range-check-0.0.1.tgz",
       "dependencies": {
         "ipaddr.js": {
-          "version": "1.1.0"
+          "version": "http://registry.npmjs.org/ipaddr.js/-/ipaddr.js-1.1.0.tgz"
         }
       }
     }
