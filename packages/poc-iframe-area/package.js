@@ -1,6 +1,6 @@
 Package.describe({
 	name: 'poc-iframe-area',
-	version: '0.0.1',
+	version: '0.0.2',
 	// Brief, one-line summary of the package.
 	summary: '',
 	// URL to the Git repository containing the source code for this package.
@@ -18,11 +18,13 @@ Package.onUse(function(api) {
 	api.use('less');
 	api.use('rocketchat:lib');
 	api.use('kadira:flow-router', 'client');
+	
+	api.addFiles('server/settings.js', 'server');
 
-	api.addFiles('route.js', 'client');
-	api.addFiles('addLink.js', 'client');
-	api.addFiles('styles.less', 'client');
-	api.addFiles('iframeLink.html', 'client');
-	api.addFiles('iframeArea.html', 'client');
+	api.addFiles('client/route.js', 'client');
+	api.addFiles('client/addLink.js', 'client');
+	api.addFiles('client/styles.less', 'client');
+	api.addFiles('client/iframeLink.html', 'client');
+	api.addFiles('client/iframeArea.html', 'client');
 });
 
